@@ -1,0 +1,3 @@
+data_path: /opt/airflow/datasets/wdbc.data.csv
+model_output: /opt/airflow/results/model.pkl
+metrics_output: /opt/airflow/results/metrics.json
