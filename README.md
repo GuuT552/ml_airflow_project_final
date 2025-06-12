@@ -95,8 +95,7 @@ airflow tasks test ml_pipeline_breast_cancer load_data 2024-01-01
 В базовой версии реализовано локальное сохранение в папку `results/`.  
 Можно легко заменить функцию `save_to_local_storage()` на выгрузку в:
 - Google Drive API (через `pydrive` и `credentials.json`)
-- Amazon S3 (через `boto3`)
-- Dropbox API (через `dropbox-sdk`)
+
 
 Пример формата метрик:
 ```json
